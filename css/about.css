@@ -1,0 +1,101 @@
+.about:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about__title {
+  margin-bottom: 50px;
+}
+
+.about__img {
+  max-width: calc(600 / 1180 * 100%);
+}
+
+.about__block {
+  float: right;
+  max-width: calc(500 / 1180 * 100%);
+}
+
+.about__text {
+  display: block;
+  margin-bottom: 86px;
+}
+
+.about__text-paragraph {
+  margin: 0 0 25px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.about__text-paragraph:last-child {
+  margin: 0;
+}
+
+.about__blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.about__blockquote-text {
+  margin: 0 0 25px;
+  padding: 0 0 0 35px;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.14;
+  white-space: pre-line;
+  position: relative;
+}
+
+.about__blockquote-text:before {
+  content: "“";
+  vertical-align: top;
+  color: #6C0287;
+  font-weight: 900;
+  margin-right: 10px;
+  line-height: 1.25;
+  position: absolute;
+  top: -8px;
+  left: 0;
+}
+
+.about__blockquote-text:after {
+  content: ' ”';
+  color: #6C0287;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.about__blockquote-author {
+  margin: 0;
+  padding: 0 0 0 110px;
+  max-width: 390px;
+  float: right;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 1.4;
+  padding-right: 20px;
+  position: relative;
+}
+
+.about__blockquote-author:before {
+  content: '';
+  background-image: url("../img/boss.jpg");
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+} 
+
+
+
+
